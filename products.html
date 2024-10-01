@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TheBuildersMart-Products</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+
+<body>
+    <script src="product.js"></script>
+    <header>
+        <div class="navbar">
+            <div class="nav-logo">
+                <div class="logo"></div>
+            </div>
+            <div class="name">
+                <a href="index.html" style="text-decoration: none; color: black;">TheBuildersMart</a>
+            </div>
+            <div class="our-materials">
+                <a href="products.html" style="text-decoration: none; color: black;">Our Products</a>
+            </div>
+            <div class="about-us">
+                <a href="aboutus.html" style="text-decoration: none; color: black;">About Us</a>
+            </div>
+            <div class="contact-us">
+                <a href="contactus.html" style="text-decoration: none; color: black;">Contact Us</a>
+            </div>
+        </div>
+    </header>
+
+    <div class="main-section">
+        <div class="section1">
+            Quality Construction Materials.
+        </div>
+        <div class="section2">
+            TheBuildersMart is your go-to platform for all construction materials. We provide a diverse
+        </div>
+        <div class="section3">
+            selection of high-quality products to meet your project needs.
+        </div>
+        <div class="section4">
+            <button>
+                <a href="contactus.html" style="text-decoration: none; color: rgb(255, 254, 254);">Order Materials</a>
+            </button>
+            <div class="section4-1">
+                <button><a href="index.html" style="text-decoration: none; color: rgb(255, 254, 254);">Learn
+                        More--></a></button>
+            </div>
+        </div>
+        <div class="image">
+            <img src="products1.jpeg" alt="">
+        </div>
+        <div class="section5">
+            <div class="section5-1">
+                Comprehensive Material Selection.
+            </div>
+            <div class="section5-2">
+                Explore our wide range of construction materials to find the perfect fit for your <br>projects, all with
+                quality assurance.
+            </div>
+        </div>
+        <div class="section6">
+            <div class="box1 box">
+                <div class="box1content">
+                    <div class="box1img" style="background-image: url(photo7.jpg);"></div>
+                    <br>
+                    <h5>Wide Range Of Materials</h5>
+                    <p>From concrete and steel to tools and safety <br>equipment, TheBuildersMart offers a compre-<br>
+                        selection of construction materials to.</p>
+                </div>
+            </div>
+            <div class="box2 box">
+                <div class="box2content">
+                    <div class="box2img" style="background-image: url(photo6.jpg);"></div>
+                    <br>
+                    <h5>Convenient Ordering</h5>
+                    <p>Our user-friendly platform allows you to easily <br>browse, select, and order the materials you
+                        need <br>for your construction projects.</p>
+                </div>
+            </div>
+            <div class="box3 box">
+                <div class="box3content">
+                    <div class="box3img" style="background-image: url(photo8.jpeg);"></div>
+                    <br>
+                    <h5>Quality Assurance</h5>
+                    <p>TheBuildersMart ensures that all materials provided are of the highest quality standards, giving
+                        you peace of mind for your projects.</p>
+                </div>
+            </div>
+        </div>
+        <div class="section7">
+            <div class="section7-1">
+                Our Products
+            </div>
+            <div class="section7-2">
+                At TheBuildersMart, we provide an extensive range of high-quality construction materials designed to
+                meet the diverse <br>needs of our clients, from large-scale commercial developers to individual
+                homebuilders. Our commitment to excellence <br>ensures that every product we offer is durable, reliable,
+                and suited for both modern and traditional construction projects.
+            </div>
+        </div>
+        <!--Images section-->
+        <div class="section8">
+            <button class="scroll-btn left" onclick="scrollLeft()">&#8592;</button>
+            <div class="scroll-content">
+                <div class="Card">
+                    <div class="card-title">Steel</div>
+                    <img src="steel.jpg" alt="">
+                </div>
+                <div class="Card">
+                    <div class="card-title">Cement</div>
+                    <img src="cement.jpg" alt="">
+                </div>
+                <div class="Card">
+                    <div class="card-title">Conduit pipes</div>
+                    <img src="pipes.jpg" alt="">
+                </div>
+                <div class="Card">
+                    <div class="card-title">Wires and Cables</div>
+                    <img src="wires.jpeg" alt="">
+                </div>
+                <div class="Card">
+                    <div class="card-title">Switches</div>
+                    <img src="switches.png" alt="">
+                </div>
+                <div class="Card">
+                    <div class="card-title">Lighting</div>
+                    <img src="lights.jpeg" alt="">
+                </div>
+                <div class="Card">
+                    <div class="card-title">Fans</div>
+                    <img src="fans.jpg" alt="">
+                </div>
+                <div class="Card">
+                    <div class="card-title">Sanitary and Bath Fittings</div>
+                    <img src="bath.jpeg" alt="">
+                </div>
+                <div class="Card">
+                    <div class="card-title">Tiles</div>
+                    <img src="tiles.jpg" alt="">
+                </div>
+                <div class="Card">
+                    <div class="card-title">DG Sets</div>
+                    <img src="Dg sets.jpeg" alt="">
+                </div>
+                <div class="Card">
+                    <div class="card-title">Paints</div>
+                    <img src="paints.jpg" alt="">
+                </div>
+                <div class="Card">
+                    <div class="card-title">BMS (Building Management System)</div>
+                    <img src="BMS.jpg" alt="">
+                </div>
+            </div>
+            <button class="scroll-btn right" onclick="scrollRight()">&#8594;</button>
+        </div>
+        <div class="section9">
+            <div class="section9-1">Simplifying Material Procurement</div>
+            <div class="section9-2">Diverse Selection for Your Projects.</div>
+        </div>
+
+        <!-- java script to provide action for buttons -->
+        <script>
+            function scrollLeft() {
+                document.querySelector('.scroll-content').scrollBy({
+                    left: -200, // Adjust the scroll amount
+                    behavior: 'smooth'
+                });
+            }
+
+            function scrollRight() {
+                document.querySelector('.scroll-content').scrollBy({
+                    left: 200, // Adjust the scroll amount
+                    behavior: 'smooth'
+                });
+            }
+
+        </script>
+    </div>
+    <footer>
+        <div class="footpanel1">
+            <ul>
+                <a href="index.html" style="text-decoration: none; color: black;">Home</a>
+                <a href="products.html" style="text-decoration: none; color: black;">Our-Products</a>
+                <a href="aboutus.html" style="text-decoration: none; color: black;">About-Us</a>
+                <a href="contactus.html" style="text-decoration: none; color: black;">Contact-Us</a>
+            </ul>
+        </div>
+        <div class="footpanel2">
+            <div class="logo1"></div>
+        </div>
+        <div class="footpanel3">
+            <div class="copyright">
+                <p>© Copyright 2023 TheBuildersMart. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
